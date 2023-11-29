@@ -1,0 +1,34 @@
+{
+    "name":        "nnapiconfigure/novalnet-apiconfigure-module",
+    "description": "This Module for Novalnet Api Configuration",
+    "type":        "oxideshop-module",
+    "keywords":    [
+        "oxid",
+        "modules",
+        "eShop",
+        "payment",
+        "apiconfiguration",
+        "novalnet"
+    ],
+    "homepage":    "https://www.novalnet.com",
+    "license":     [
+        "GPL-3.0",
+        "proprietary"
+    ],
+    "authors":     [
+        {
+            "name":  "Novalnet Developer",
+            "email": "technical@novalnet.de"
+        }
+    ],
+    "extra":       {
+        "oxideshop": {
+            "target-directory": "nnapiconfigure/nnapiconfigure"
+        }
+    },
+    "autoload":    {
+        "psr-4": {
+            "Nnapiconfigure\\": "./"
+       }
+    }
+}
